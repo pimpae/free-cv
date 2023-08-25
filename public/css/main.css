@@ -922,6 +922,49 @@ footer h6{
   color: #979797 !important;
   z-index: 4;
 } 
+.cv{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 20px;
+  position: relative;
+} 
+.cv1 .header{
+  background-color: #183042;
+  padding: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  position: relative;
+  min-height: 200px;
+} 
+.cv1 .imgx{
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 4px solid #fff;
+}
+.cv1 .header h1{
+  color: #fff;
+  font-size: 32px;
+}
+.cv1 .header h4{
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.cv1 .main{
+  background-color: #fff;
+  padding: 30px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+
 
 
 /*
