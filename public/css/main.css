@@ -934,8 +934,7 @@ footer h6{
   padding: 30px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  position: relative;
-  min-height: 200px;
+  position: relative; 
 } 
 .cv1 .imgx{
   position: absolute;
@@ -944,8 +943,8 @@ footer h6{
   width: 150px;
   height: 150px;
   object-fit: cover;
-  border-radius: 8px;
-  border: 4px solid #fff;
+  border-radius: 12px;
+  border: 4px solid #6A7185;
 }
 .cv1 .header h1{
   color: #fff;
@@ -954,14 +953,69 @@ footer h6{
 .cv1 .header h4{
   color: #fff;
   font-size: 20px;
+  margin-bottom: 20px;
 }
-
-
+.cv1 .header p{
+  color: #fff;
+  font-size: 16px;
+  padding-right: 180px;
+  margin-bottom: 0px;
+}
+.cv .sub{
+  background-color: #0C1829;
+  padding: 30px 30px 20px;
+  position: relative; 
+}
+.cv .sub h5{ 
+  position: relative; 
+  color: #fff;
+  font-size: 16px;
+  padding-left: 35px;
+  margin-bottom: 10px;
+}
+.cv .sub h5 span{ 
+  position: absolute;
+  left: 0;
+  top: -2px;
+  font-size: 20px;
+} 
+.cv .sub h5 i{ 
+  position: absolute;
+  left: 2px;
+  top: -2px;
+  font-size: 16px;
+} 
 .cv1 .main{
   background-color: #fff;
-  padding: 30px;
+  padding: 30px 50px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+.cv1 .main h4{
+  color: #636A7F; 
+  margin-bottom: 30px;
+}
+.cv1 .main h4 span{ 
+  border-bottom: 3px solid #636A7F;
+}
+.cv1 .main h5{ 
+  color: #636A7F; 
+  font-size: 16px;
+  margin-top: 20px;
+}
+.cv1 .main ul{  
+  list-style: none;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.cv1 .main h5{ 
+  color: #183042; 
+  font-size: 18px;
+}
+.cv1 .main h6{ 
+  color: #636A7F; 
+  font-size: 16px;
+  padding-left: 20px;
 }
 
 
