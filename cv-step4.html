@@ -123,14 +123,14 @@
 							</li> 
 							<li>
 								<div></div>
-								เสร็จสิ้น
+								ความสามารถ/ผลงาน
 							</li>
 						</ul>
 					</div>
 					<form class="form-x">
 						<div class="row">
 							<div class="col-6">
-								<h4>การสอบ  (การอบรม / การสอบภาษอังกฤษ)
+								<h4>การอบรม
 								</h4>
 							</div> 
 						</div>
@@ -138,7 +138,7 @@
 						<br> 
 					 
 						<div class="form-group row">
-							<label class="col-12"><h5><b>การอบรม / การสอบภาษอังกฤษ</b></h5></label> 
+							<label class="col-12"><h5><b>การอบรม </b></h5></label> 
 							<div class="col-lg-6">
 								<label for=""><span>*</span>ชื่อหลักสูตร </label> 
 								<input type="text" class="form-control">
@@ -151,7 +151,7 @@
 							<div class="col-lg-3 position-relative">
 								<div class="row">
 									<div class="col-12">  
-										<label for="date1"  >วันที่สร้างสัญญา
+										<label for="date1"  >วันที่
 											<span class="material-symbols-outlined icon-span2 t31">
 											calendar_month
 											</span>
@@ -180,12 +180,74 @@
 						</div>
 
 						<hr>
-						<button class="btn btn-success">
+						<button class="btn btn-success btn-sm pt-0">
+							<span class="material-symbols-outlined">
+							add 
+							</span> การอบรม 
+						</button>
+
+
+						<br>
+						<br>
+						<br>
+
+
+						<div class="form-group row">
+							<label class="col-12"><h5><b>การสอบภาษอังกฤษ</b></h5></label> 
+							<div class="col-lg-6">
+								<label for=""><span>*</span>ชื่อการสอบ</label> 
+								<select class="js-example-basic-multiple">
+									<option value="" selected disabled>ชื่อการสอบ</option> 
+									<option value="">TOEFL </option> 
+									<option value="">TOEIC  </option> 
+									<option value="">SAT</option>
+									<option value="">CU - TEP</option>
+									<option value="">IELTS </option>  
+								</select>
+							</div>
+							<div class="col-lg-3">
+								<label for=""><span>*</span>ผลคะแนน</label> 
+								<input type="text" class="form-control">
+							</div> 
+							<div class="col-lg-3 position-relative">
+								<div class="row">
+									<div class="col-12">  
+										<label for="date1">วันที่
+											<span class="material-symbols-outlined icon-span2 t31">
+											calendar_month
+											</span>
+										</label>  
+									</div>  
+									<div class="col-12 position-relative"> 
+										<input type="text" class="form-control date" id="date1" >  
+									</div>  
+								</div>
+							</div>
+						</div> 
+						<div class="form-group row">
+							<div class="col-lg-4">
+								<label for="">แนบไฟล์ที่เกี่ยวข้อง</label> 
+								<div class="input-group">  
+									<div class="input-group-prepend">  
+										<span class="input-group-text" id="inputGroupFileAddon01"> แนบไฟล์ </span>  
+									</div>  
+									<div class="custom-file">  
+										  <input type="file" class="custom-file-input" id="inputGroupFile01"  
+										aria-describedby="inputGroupFileAddon01">  
+										  <label class="custom-file-label" for="inputGroupFile01"> Choose file </label>  
+									</div>  
+								</div>  
+							</div>   
+						</div>
+
+						<hr>
+						<button class="btn btn-success btn-sm pt-0">
 							<span class="material-symbols-outlined">
 							add 
 							</span>
-							การอบรม / การสอบภาษอังกฤษ
+							การสอบภาษอังกฤษ
 						</button>
+
 
  
 
@@ -271,9 +333,9 @@
 	<script> 
 		$('#chk-fnis').click(function(){    
 			if (this.checked) {
-				$(".เสร็จสิ้น").hide();  
+				$(".ความสามารถ/ผลงาน").hide();  
 			} else {
-				$(".เสร็จสิ้น").show();   
+				$(".ความสามารถ/ผลงาน").show();   
 			}
 		}); 
 	</script>

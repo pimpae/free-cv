@@ -126,7 +126,7 @@
 							</li>
 							<li>
 								<div></div>
-								เสร็จสิ้น
+								ความสามารถ/ผลงาน
 							</li>
 						</ul>
 					</div>
@@ -291,7 +291,7 @@
 							</div>
 							<div class="col-lg-4">
 								<label for=""><span>*</span>โทรศัพท์</label> <br>
-								<input type="tel" id="phone" class="form-control w-100" autocomplete="off" data-intl-tel-input-id="0" placeholder="(+66) 12345678">
+								<input type="tel" id="phone" class="form-control w-100 phone" autocomplete="off" data-intl-tel-input-id="0" placeholder="(+66) 12345678">
 							</div> 
 							<div class="col-lg-4">
 								<label for=""><span>*</span>อีเมล</label> 
@@ -302,75 +302,142 @@
 						<hr>
 						<br>
 
-						<div class="form-group row">
-							<div class="col-12">
-								<h5>ที่อยู่</h5>
-							</div>
-							<div class="col-lg-8">
-								<label for=""><span>*</span>ที่อยู่
-								</label> 
-								<input type="text" class="form-control">
+
+						
+						<div class="form-group  ">
+							<h5>ที่อยู่</h5> 
+							<div class="custom-control custom-checkbox mr-sm-2">
+								<input type="checkbox" class="custom-control-input" id="chk-country">
+								<label class="custom-control-label" for="chk-country">ที่อยู่ต่างประเทศ</label>
 							</div> 
-							<div class="col-lg-4">
-								<label for=""><span>*</span>ประเทศ</label> 
-								<select class="js-example-basic-multiple">
-									<option value="" selected disabled>ประเทศ</option> 
-									<option value="">ประเทศ</option>
-									<option value="">ประเทศ</option>
-									<option value="">ประเทศ</option> 
-								</select>
+						</div> 
+
+						<div class="border p-4 in-country">
+
+							<div class="form-group row">  
+								<div class="col-lg-3">
+									<label for=""><span>*</span>รหัสไปรษณีย์
+									</label> 
+									<input type="text" class="form-control">
+								</div>
+								<div class="col-lg-3">
+									<label for=""><span>*</span>ตำบล</label> 
+									<select class="js-example-basic-multiple">
+										<option value="" selected disabled>ตำบล</option> 
+										<option value="">ตำบล</option>
+										<option value="">ตำบล</option>
+										<option value="">ตำบล</option> 
+									</select>
+								</div>
+								<div class="col-lg-3">
+									<label for=""><span>*</span>อำเภอ</label> 
+									<select class="js-example-basic-multiple">
+										<option value="" selected disabled>อำเภอ</option> 
+										<option value="">อำเภอ</option>
+										<option value="">อำเภอ</option>
+										<option value="">อำเภอ</option> 
+									</select>
+								</div>
+								<div class="col-lg-3">
+									<label for=""><span>*</span>จังหวัด</label> 
+									<select class="js-example-basic-multiple">
+										<option value="" selected disabled>จังหวัด</option> 
+										<option value="">จังหวัด</option>
+										<option value="">จังหวัด</option>
+										<option value="">จังหวัด</option> 
+									</select>
+								</div>
+							</div> 
+							<div class="form-group row">
+								<div class="col-lg-12">
+									<label for=""><span>*</span>ที่อยู่
+									</label> 
+									<input type="text" class="form-control">
+								</div>  
 							</div>
-						</div>
-						<div class="form-group row">  
-							<div class="col-lg-4">
-								<label for=""><span>*</span>รหัสไปรษณีย์
-								</label> 
-								<input type="text" class="form-control">
-							</div>
-							<div class="col-lg-4">
-								<label for=""><span>*</span>อำเภอ</label> 
-								<select class="js-example-basic-multiple">
-									<option value="" selected disabled>อำเภอ</option> 
-									<option value="">อำเภอ</option>
-									<option value="">อำเภอ</option>
-									<option value="">อำเภอ</option> 
-								</select>
-							</div>
-							<div class="col-lg-4">
-								<label for=""><span>*</span>จังหวัด</label> 
-								<select class="js-example-basic-multiple">
-									<option value="" selected disabled>จังหวัด</option> 
-									<option value="">จังหวัด</option>
-									<option value="">จังหวัด</option>
-									<option value="">จังหวัด</option> 
-								</select>
-							</div>
-						</div>
-						<hr>
-						<br>
-						 
-						<div class="form-group row">
-							<div class="col-12">
-								<h5>Social Medis</h5>
-							</div>
-							<div class="col-lg-3">
-								<label for="">Facebook </label> 
-								<input type="text" class="form-control">
-							</div>  
-							<div class="col-lg-3">
-								<label for="">Instagram </label> 
-								<input type="text" class="form-control">
-							</div>  
-							<div class="col-lg-3">
-								<label for="">Line </label> 
-								<input type="text" class="form-control">
-							</div>  
-							<div class="col-lg-3">
-								<label for="">Linkedin </label> 
-								<input type="text" class="form-control">
-							</div>  
 						</div>
 
+						
+						<div class="border p-4 outside-country" style="display: none;">
+							<div class="form-group row">
+								<div class="col-lg-4">
+									<label for=""><span>*</span>ประเทศ</label> 
+									<select class="js-example-basic-multiple">
+										<option value="" selected disabled>ประเทศ</option> 
+										<option value="">ประเทศ</option>
+										<option value="">ประเทศ</option>
+										<option value="">ประเทศ</option> 
+									</select>
+								</div>
+								<div class="col-lg-8">
+									<label for=""><span>*</span>ที่อยู่ต่างประเทศ
+									</label> 
+									<input type="text" class="form-control">
+								</div> 
+							</div>
+
+							<div class="form-group row">  
+								<div class="col-lg-4">
+									<label for=""><span>*</span>รหัสไปรษณีย์
+									</label> 
+									<input type="text" class="form-control">
+								</div>
+								<div class="col-lg-4">
+									<label for=""><span>*</span>จังหวัด/เมือง</label> 
+									<select class="js-example-basic-multiple">
+										<option value="" selected disabled>จังหวัด/เมือง</option> 
+										<option value="">จังหวัด</option>
+										<option value="">จังหวัด</option>
+										<option value="">จังหวัด</option> 
+									</select>
+								</div>
+								<div class="col-lg-4">
+									<label for=""><span>*</span>อำเภอ</label> 
+									<select class="js-example-basic-multiple">
+										<option value="" selected disabled>อำเภอ</option> 
+										<option value="">อำเภอ</option>
+										<option value="">อำเภอ</option>
+										<option value="">อำเภอ</option> 
+									</select>
+								</div> 
+							</div> 
+							<div class="form-group row">   
+								<div class="col-lg-4">
+									<label for=""><span>*</span>โทรศัพท์</label> <br>
+									<input type="tel" id="phone" class="form-control w-100 phone2" autocomplete="off" data-intl-tel-input-id="0" placeholder="(+66) 12345678">
+								</div> 
+							</div> 
+						</div>
+
+						<br>
+						<hr>
+						
+						<div class="form-group row">
+							<div class="col-12">
+								<h5>Social Media</h5>
+							</div>
+							<div class="col-lg-3">
+								<label for="">Social Media </label>  
+								<select class="js-example-basic-multiple">
+									<option value="" selected disabled>เลือก</option> 
+									<option value="">Facebook</option>
+									<option value="">instagram</option>
+									<option value="">Line</option> 
+									<option value="">Tioktok</option> 
+									<option value="">Linkedin</option> 
+								</select>
+							</div>   
+							<div class="col-lg-6">
+								<label for="">Link </label>  
+								<input type="text" class="form-control">
+							</div>   
+							<div class="col-lg-1"> 
+								<br>
+								<button class="btn btn-success btn-sm mt-2">
+									<span class="material-symbols-outlined"> add </span>  
+								</button>
+							</div>   
+						</div>
 
 						<hr>
 						<br>
@@ -449,12 +516,19 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
 	<script>
-		const input = document.querySelector("#phone");
-		window.intlTelInput(input, {
-			utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
-			initialCountry: "th",
+ 
 
-		});  
+		$('#chk-country').change(function(){
+			if(this.checked != true) {
+				$(".outside-country").hide();
+				$(".in-country").show();
+			}
+			else {
+				$(".in-country").hide();
+				$(".outside-country").show();
+			}
+		});   
+ 
 
 		$(document).ready(function() {
 			$('.js-example-basic-multiple').select2(); 
@@ -478,8 +552,24 @@
 			});
 
 			$(".upload-button").on('click', function() {
-			$(".file-upload").click();
+				$(".file-upload").click();
 			});
+
+			
+			const input = document.querySelector(".phone"); 
+			window.intlTelInput(input, {
+				utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+				initialCountry: "th", 
+			});
+
+			
+			
+			const input2 = document.querySelector(".phone2"); 
+			window.intlTelInput(input2, {
+				utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+				initialCountry: "th", 
+			});  
+			
 		});
 	</script>
 
