@@ -151,8 +151,7 @@ header nav .navbar-brand img{
   background: rgba(119, 119, 119, 0.7);
   backdrop-filter: blur(6px);  
   border-radius: 16px;
-  z-index: 4; 
-  font-family: 'Inter'; 
+  z-index: 4;  
   font-weight: 700;
   display: flex;
   justify-content: center;
@@ -171,8 +170,7 @@ header nav .navbar-brand img{
   background: #F29D29;
   border-radius: 16px; 
   backdrop-filter: blur(6px);   
-  z-index: 4; 
-  font-family: 'Inter'; 
+  z-index: 4;  
   font-weight: 600;
   display: flex;
   justify-content: center;
@@ -263,8 +261,7 @@ header nav .navbar-brand img{
   height: 800px; 
   background: #FFFFFF;
 }
-.sec3 h1{
-  font-family: 'Inter'; 
+.sec3 h1{ 
   font-weight: 700;
   font-size: 56px; 
   color: #18181B;
@@ -277,8 +274,7 @@ header nav .navbar-brand img{
 .sec3 h1 span{ 
   color: #F29D29;
 }
-.sec3 h2{
-  font-family: 'Inter'; 
+.sec3 h2{ 
   font-weight: 700;
   font-size: 56px; 
   text-align: right; 
@@ -433,7 +429,6 @@ header nav .navbar-brand img{
   position: relative;
 }
 .sec5 .reviews p{
-  font-family: 'Inter';
   font-style: italic;
   font-weight: 400;
   font-size: 20px;
@@ -452,7 +447,6 @@ header nav .navbar-brand img{
   border-radius: 100%;
 }
 .sec5 .reviews h4{
-  font-family: 'Inter';
   font-weight: 500;
   font-size: 20px;
   line-height: 30px; 
@@ -461,7 +455,6 @@ header nav .navbar-brand img{
   padding-left: 88px;
 }
 .sec5 .reviews h5{
-  font-family: 'Inter';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px; 
@@ -527,7 +520,6 @@ footer{
   padding-top: 56px;
 }
 footer h1{
-  font-family: 'Inter';
   font-weight: 600;
   font-size: 48px;
   line-height: 64px; 
@@ -548,7 +540,6 @@ footer .social img{
   height: 32px; 
 }
 footer h3{
-  font-family: 'Inter';
   font-weight: 600; 
   font-size: 20px;
   line-height: 24px; 
@@ -572,7 +563,6 @@ footer ul li a{
   transition: .33s all ease-out;
 }
 footer ul li a span{ 
-  font-family: 'Inter';
   font-weight: 400;
 }
 footer ul li a:hover{ 
@@ -585,8 +575,7 @@ footer ul li img{
 footer hr{
   border-bottom: 1px solid #FFFFFF;
 }
-footer h6{
-  font-family: 'Inter'; 
+footer h6{ 
   font-weight: 400;
   font-size: 16px;
   line-height: 30px; 
